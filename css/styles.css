@@ -237,3 +237,27 @@ table {
 #col-A p::after {
   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non efficitur odio. Nullam fringilla leo purus, vel gravida enim consectetur at. Nam maximus, nunc non vehicula lacinia, tellus nunc ullamcorper ante, aliquet aliquam sem magna quis dui. Aenean malesuada interdum mollis. Nam maximus, nunc non vehicula lacinia, tellus nunc ullamcorper ante, aliquet aliquam sem magna quis dui. Aenean malesuada interdum mollis.";
 }
+
+.btn {
+  background-color: #404040;
+  color: white;
+  width: 110px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #dd3e16;
+}
+
+input {
+  height: 30px;
+  width: 200px;
+}
