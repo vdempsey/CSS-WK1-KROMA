@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: #e6e6e6;
+  color: #404040;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+#main-banner {
+  width: 900px;
+  height: 400px;
+  margin: auto;
+  background-image: url('../img/eye-closed900.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 30%;
+  background-size: auto;
+  position: relative;
+}
+
+/*.blink {
+  width: 900px;
+  float: right;
+  height: 500px;
+}*/
+
+#main-banner:hover {
+  background-image: url('../img/eye-open900.jpg');
+}
+
+.logo {
+  width: 300px;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+.middle {
+  background-color: white;
+  overflow: auto;
+}
+
+#content {
+  width: 900px;
+  padding: 20px;
+  margin: auto;
+  background-color: white;
+}
+
+.column {
+  /*background-color: white;*/
+}
+
+#col-1 {
+  width: 60%;
+  padding: 20px;
+  float: left;
+}
+
+#col-2 {
+  width: 40%;
+  padding: 20px;
+  float: left;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+  background-color: red;
+  float: left;
+  margin: 5px;
+}
+
+#footer {
+  padding: 20px;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  clear: both;
+}
