@@ -13,6 +13,10 @@ body {
   color: #404040;
 }
 
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
@@ -55,10 +59,11 @@ body {
 
 .logo {
   width: 300px;
-  position: fixed;
-  top: 14%;
-  left: 20%;
+  position: absolute;
+  top: 100px;
+  left: 40px;
 }
+
 
 .middle {
   background-color: white;
@@ -88,6 +93,11 @@ body {
   margin-top: 30px;
   float: left;
   height: 300px;
+}
+
+table {
+  border: collapse;
+  border: none;
 }
 
 .circle {
@@ -186,4 +196,44 @@ body {
 
 #footer a:hover {
   color: #2b89c4;
+}
+
+/*Styles for gallery page*/
+
+.middle-gal {
+  background-color: #fff;
+  overflow: auto;
+  /*height: 500px;*/
+  /*background-color: #e6e6e6;*/
+}
+
+#col-B, #col-C {
+  width: 250px;
+  float: left;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+#col-B img, #col-C img {
+  max-width: 100%;
+  opacity: 0.5;
+}
+
+
+#col-B img:hover, #col-C img:hover {
+  opacity: 1;
+  filter: none;
+}
+
+#col-A {
+  width: 40%;
+  float: left;
+  padding-left: 50px;
+  padding-right:50px;
+  padding-top: 40px;
+  color: #404040;
+}
+
+#col-A p::after {
+  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non efficitur odio. Nullam fringilla leo purus, vel gravida enim consectetur at. Nam maximus, nunc non vehicula lacinia, tellus nunc ullamcorper ante, aliquet aliquam sem magna quis dui. Aenean malesuada interdum mollis. Nam maximus, nunc non vehicula lacinia, tellus nunc ullamcorper ante, aliquet aliquam sem magna quis dui. Aenean malesuada interdum mollis.";
 }
